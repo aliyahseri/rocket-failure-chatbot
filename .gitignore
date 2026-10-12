@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*:Zone.Identifier
+
+# Logs
+*.log
+
+# Data and model artifacts (never committed)
+*.csv
+*.tsv
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.npy
+*.npz
+*.faiss
+*.mat
+*.zip
+*.mp4
+
+# Project-specific: dataset and generated indexes
+data/*
+!data/README.md
+models/
